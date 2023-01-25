@@ -12,7 +12,8 @@ const Container = styled.footer`
     background-color: #fff;
     @media screen and (max-width : 768px) {
         position: fixed;
-        bottom: 0;   
+        bottom: 0;
+        left: 0;   
         border-top: 1px solid ${palette.gray};
     }
     .footer-button {

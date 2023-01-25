@@ -21,6 +21,9 @@ const GlobalStyle = createGlobalStyle`
         position: relative;
         background-color: #fff;
         max-width: 350px;
+        @media screen and (max-width : 768px) {
+        max-width: inherit;
+        }
         border: 1px solid ${palette.gray};
         border-bottom: 0;
         border-top: 0;
